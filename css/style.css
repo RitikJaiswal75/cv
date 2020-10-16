@@ -1,0 +1,82 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body {
+    background: url("../img/navbg.jpg");
+}
+hr{
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: gray;
+    width: 3%;
+}
+h1,h3{
+    color: #66bfbf;
+}
+
+.DP{
+    border: 2px solid white;
+    border-radius: 10rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    margin: 0;
+    height: 7%;;
+    background-blend-mode: darken;
+    justify-content: space-between;
+    padding: 0 .2rem;
+}
+
+.navbar .logo img{
+    width: 7vw;
+    max-height: 35vh;
+    border: 2px solid black;
+    border-radius: 3rem;
+}
+
+.navbar .menuitems li{
+    padding: 1.6rem .8rem;
+font-size: 1.2rem;
+position: relative;
+margin-top: 0;
+}
+
+.navbar .menuitems a{
+    color: #4c5c68;
+}
+
+.navbar .menuitems li:hover{
+    background-color: #219ebc;
+}
+
+.navbar .menuitems a:hover{
+    color: white;
+}
+
+.navbar .social .socialitems li{
+    padding: 1.6rem .8rem;
+font-size: 1rem;
+position: relative;
+}
+
+.navbar .social .socialitems a:hover{
+    color: green;
+}
